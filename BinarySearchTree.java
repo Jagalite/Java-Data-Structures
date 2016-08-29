@@ -14,8 +14,7 @@ public class BinarySearchTree {
     public void printInOrder() {
         printInOrder(root);
     }
-    
-    //DONESNT WORK
+
     public void delete(Integer data) {
         TreeNode<Integer> parent = findParent(root, data);
         TreeNode<Integer> node = findNode(parent, data);
